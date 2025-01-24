@@ -1,0 +1,27 @@
+.new-episodes-section {
+    background-color: #181818;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .new-episodes-section h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .card {
+    background-color: #282828;
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  

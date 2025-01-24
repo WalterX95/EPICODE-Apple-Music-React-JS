@@ -1,27 +1,49 @@
 .new-episodes-section {
-    background-color: #181818;
-    color: #ffffff;
-    padding: 20px 0;
-  }
-  
-  .new-episodes-section h3 {
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  
-  .card {
-    background-color: #282828;
-    border: none;
-  }
-  
-  .card-title {
-    font-size: 16px;
-    color: #ffffff;
-  }
-  
-  .card-body {
-    padding: 10px;
-  }
-  
+  padding: 20px;
+  background-color: #181818;
+  color: white;
+}
+
+.new-episodes-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.episode-card {
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.episode-card:hover {
+  transform: scale(1.05);
+}
+
+.episode-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.episode-info {
+  padding: 10px;
+}
+
+.episode-info h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.episode-info p {
+  font-size: 14px;
+  color: #bbb;
+}
